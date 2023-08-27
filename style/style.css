@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:768px) {
+    body{
+        background-color: aqua;
+        color: white;
+        padding: 15px;
+    }
+    h1{
+        color: rgb(4, 4, 55);
+    }
+}
+@media screen and (max-width:480px ) {
+    body{
+        background-color: black;
+        color: white;
+
+    }
+    h1{
+        text-align: center;
+        color: white;
+    }
+   
+}
+
+
+/* 480px, 768px, 1024px, and 1280px */
