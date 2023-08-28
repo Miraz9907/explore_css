@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+nav{
+    background-color: crimson;
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul li{
+    list-style-type: none;
+    padding:0 15px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 8px;
+    
+}
+
+nav ul li a:hover{
+    background-color: grey;
+    border-radius: 30px;
+    box-shadow: 3px 2px 5px rgb(230, 230, 230);
+    
+}
+
+@media screen and (max-width:480px) {
+    nav ul{
+        padding: 15px;
+        flex-direction: column;
+        
+    }
+    nav ul li{
+        border: 2px solid black;
+        margin: 2px 0px;
+        background-color: cadetblue ;
+        width: 90%;
+        text-align: center;
+    }
+}
+
+/* 480px, 768px, 1024px, and 1280px */
