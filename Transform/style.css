@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box-container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    margin: 7px;
+    transition: 3s;
+}
+#div1:hover{
+    transform: rotate(45deg);
+    background-color: aqua;
+}
+#div2:hover{
+    transform: scale(1.2);
+    background-color: aqua;
+}
+#div3:hover{
+    transform: rotate(45deg) scale(1.2);
+    background-color: aqua;
+}
+#div4:hover{
+    transform: skew(45deg);
+    background-color: aqua;
+}
+#div5:hover{
+    transform: translateY(40px);
+    background-color: aqua;
+}
+
